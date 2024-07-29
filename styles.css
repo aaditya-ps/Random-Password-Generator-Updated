@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to top left, rgb(19, 19, 186), green);
+    color: white;
+}
+
+.container{
+    border:1px solid white;
+    border-radius: 15px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    box-shadow: 1px 1px 5px 3px black;
+}
+
+h1{
+    font-size: 2rem;
+    margin: 30px 20px 30px 20px;
+}
+
+.pwdbox{
+    background-color:white;
+    border: none;
+    outline: none;
+    padding: 5px;
+    width: 300px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin: 0px 0px 30px 0px;
+    
+}
+
+.rangebox{
+    margin: 0px 0px 30px 0px;
+    width: 295px;
+}
+
+.textelements{
+    display: flex;
+    margin: 0px 0px 30px 0px;
+    width: 300px;
+}
+
+.textelements p{
+    flex-basis: 100%;
+}
+
+.textelements label{
+    flex-basis: 100%;
+}
+
+.button{
+    height: 40px;
+    width: 300px;
+    outline: 0;
+    border-radius: 9px;
+    padding: 2px;
+    border: 0;
+    font-size: smaller;
+    font-weight: bold;
+}
+
+.button:hover{
+    background-color: blanchedalmond;
+}
+
+.buttonDiv{
+    width: 300px;
+    display: flex;
+    padding: 0;
+    margin: 0 0 30px 0;
+    background: transparent;
+    justify-content: space-between;
+}
+
+.buttonDiv button{
+    flex-basis: 45%;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+
+        <h1>Password Generartor</h1>
+
+        <div class="inputbox">
+            <input id="displayfield" type="text" class="pwdbox">
+        </div>
+
+        <input id="slider" type="range" class="rangebox" min="1" max="25" value="8">
+
+        <div class="textelements">
+            <p>Password Length</p>
+            
+            <span id="slidervalue">4</span>
+        </div>
+
+        <div class="textelements">
+            <label for="checkbox1">Include lowercase characters</label>
+            <input type='checkbox' name="" id="checkbox1">
+        </div>
+
+        <div class="textelements">
+            <label for="checkbox2">Include uppercase characters</label>
+            <input type='checkbox' name="" id="checkbox2">
+        </div>
+
+        <div class="textelements">
+            <label for="checkbox3">Include symbols (@ !)</label>
+            <input type='checkbox' name="" id="checkbox3">
+        </div>
+
+        <div class="textelements">
+            <label for="checkbox4">Include numbers</label>
+            <input type='checkbox' name="" id="checkbox4">
+        </div>
+
+        <div class="buttonDiv">
+
+            <button type="button" class="button" id="button">
+                Generate Password
+            </button>
+    
+            <button type="button" id="copy" class="button" id="button">
+                Copy Password
+            </button>
+
+        </div>
+
+        
+
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
